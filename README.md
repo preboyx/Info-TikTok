@@ -27,5 +27,5 @@ Instalacion
 • python3 TikTok-info.py
 ```
 
-• Canal: <img src="https://assets.telegrampartners.com/telegram_128.png" width="20" height="20"> @BoxPrey
-• BY: [:telegram: @PreBoyx](https://t.me/PreBoyx)
+• Canal: [@BoxPrey](https://t.me/BoxPrey)
+• BY: [@PreBoyx](https://t.me/PreBoyx)
