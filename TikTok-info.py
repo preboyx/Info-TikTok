@@ -13,11 +13,10 @@ def get_info(username):
     "sec-fetch-mode": "navigate",
     "sec-fetch-user": "?1",
     "sec-fetch-dest": "document",
-#    "accept-encoding": "gzip, deflate, br",
+          
     "accept-language": "en-US,en;q\u003d0.9,ar-DZ;q\u003d0.8,ar;q\u003d0.7,fr;q\u003d0.6,hu;q\u003d0.5,zh-CN;q\u003d0.4,zh;q\u003d0.3",}
      patrek=requests.get(f'https://www.tiktok.com/@{username}',headers=patre).text
-#     with open ('wtxxxx.txt','a+') as w:
-#         w.write(str(patrek))
+
      try:
         getting = str(patrek.split('webapp.user-detail"')[1]).split('"RecommendUserList"')[0]
         try:id = str(getting.split('id":"')[1]).split('",')[0]
