@@ -53,7 +53,7 @@ def get_info(username):
 [會]丨⏤‌⛦ ʙʏ: @PreBoyx
 ⋅  ──────── ✧  ────────  ⋅""";print(kls)
      except:
-      print(f'[×] Wrong UserName : {username}')
+      print(f'\033[1;31;40m[〆] Nombre de usuario incorrecto : \033[m{username}')
 os.system('cls')
 os.system('clear')
 print("___________________________________________________________________")
